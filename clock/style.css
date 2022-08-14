@@ -1,0 +1,51 @@
+body{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: url("./te-lun-ou-yang-OOtl1cdWiSU-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:  sans-serif;
+}
+h2{
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+    color:wheat;
+}
+
+.clock {
+    display: flex;
+    position: relative;
+ }
+ .clock div {
+    margin: 0 1rem;
+ }
+.clock span{
+    background-color: yellowgreen;
+    display: flex;
+    height: 6rem;
+    width: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+.clock .text{
+    font-size: 0.7rem;
+    font-weight: 500;
+    background-color: gray;
+    height: 1.8rem;
+    text-transform: uppercase;
+}
+#ampm{
+    font-size: 0.7rem;
+    position: absolute;
+    bottom: 0;
+    height: 1.6rem;
+    width: 2.5rem;
+    background-color: brown;
+    color: aliceblue;
+}

@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #05386b;
+    height: 100vh;
+    font-family: sans-serif;
+
+}
+.container{
+    background-color: #5cdb95;
+    width: 28rem;
+    padding: 1rem;
+    box-shadow: 0 4px 8px;
+    border-radius: 1rem;
+}
+textarea{
+    height: 8rem;
+    width: 100%;
+    resize: none;
+    font: 1rem sans-serif;
+    padding: 00.8rem;
+    box-sizing: border-box;
+}
+.c-contF{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
